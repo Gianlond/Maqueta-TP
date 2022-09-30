@@ -1,4 +1,4 @@
-body{
+main{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
@@ -14,10 +14,12 @@ i.fa-brands.fa-instagram.fa-2xl:hover{
 i.fa-brands.fa-instagram.fa-2xl,
 i.fa-brands.fa-github.fa-2xl,
 i.fa-brands.fa-linkedin.fa-2xl,
-i.fa-solid.fa-user{
+i.fa-solid.fa-user.fa-2xl,
+i.fa-solid.fa-user-lock.fa-2xl{
     color:#fff;
 }
-i.fa-solid.fa-user.fa-2xl:hover{
+i.fa-solid.fa-user.fa-2xl:hover,
+i.fa-solid.fa-user-lock.fa-2xl:hover{
             color: rgb(229, 17, 17);
             }
 ul.list-group.list-group-horizontal{
@@ -37,6 +39,7 @@ ul.list-group.list-group-horizontal{
     height: calc(100vh - 65px);
     background-color: #0f1111;
     color: white;
+    background-image: url(../img/lobo.jpg);
     /* padding-top: 10%; */
 }
 .caja-central{
@@ -64,3 +67,13 @@ ul.list-group.list-group-horizontal{
     color: #303030;
     padding: 10px;
 }
+.carousel-inner{
+    height: 400px;
+ }
+ .carousel-item {
+    height: 400px;
+ }
+.carousel-caption{
+color: #030303;
+ }
+
