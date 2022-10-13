@@ -1,5 +1,4 @@
-main{
-    margin: 0;
+body{
     font-family: 'Open Sans', sans-serif;
 }
 i.fa-brands.fa-linkedin.fa-2xl:hover{
@@ -39,7 +38,7 @@ ul.list-group.list-group-horizontal{
     height: calc(100vh - 65px);
     background-color: #0f1111;
     color: white;
-    background-image: url(../img/lobo.jpg);
+    background-image: url(../img/job.jpg);
     /* padding-top: 10%; */
 }
 .caja-central{
@@ -67,13 +66,25 @@ ul.list-group.list-group-horizontal{
     color: #303030;
     padding: 10px;
 }
-.carousel-inner{
-    height: 400px;
- }
- .carousel-item {
-    height: 400px;
- }
-.carousel-caption{
-color: #030303;
- }
-
+.dos{
+    background-color: #F2F2F2;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 2%;
+    padding-right: 30%;
+}
+.titulo{
+   padding-left:1rem;
+}
+.tres{
+    background-color: #050505;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 2%;
+    padding-right: 30%;
+    color: #F2F2F2;
+}
