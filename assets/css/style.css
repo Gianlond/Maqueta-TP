@@ -74,17 +74,19 @@ ul.list-group.list-group-horizontal{
     justify-content: left;
     padding-left: 2%;
     padding-right: 30%;
+    padding-top: 2%;
 }
 .titulo{
    padding-left:1rem;
 }
 .tres{
     background-color: #050505;
-    height: 40rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: left;
     padding-left: 2%;
     padding-right: 30%;
+    padding-top: 2%;
     color: #F2F2F2;
 }
